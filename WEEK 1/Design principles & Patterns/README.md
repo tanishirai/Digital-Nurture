@@ -123,8 +123,7 @@ ExcelFactory produces ExcelDocument : true
 # Folder Structure
 
 ```text
-Week1/
-│
+Design principles & Patterns/
 ├── README.md
 │
 ├── screenshots/
