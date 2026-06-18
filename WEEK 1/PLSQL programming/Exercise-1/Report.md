@@ -173,7 +173,7 @@ Screenshot:
 # Files Included
 
 ```text
-Week1_Exercise1/
+PLSQL programming/Exercise-1
 │
 ├── schema_and_data.sql
 ├── scenario1_loan_discount.sql
