@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="
+           http://www.springframework.org/schema/beans
+           http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <!--
+        India Country bean defined in XML configuration.
+        The controller loads this bean from the Spring context
+        and returns it as the REST response.
+
+        Spring Boot's Jackson library automatically converts
+        this Country object into the JSON response:
+        { "code": "IN", "name": "India" }
+    -->
+    <bean id="india" class="com.cognizant.springlearn.Country">
+        <property name="code" value="IN" />
+        <property name="name" value="India" />
+    </bean>
+
+</beans>
